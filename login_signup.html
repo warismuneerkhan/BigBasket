@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #cont2{
+            width: 300px;
+            height: 400px;
+            background-color: white;
+            border: 1px solid;
+            padding: 2%;
+            margin: auto;
+            margin-top: 5%;
+            box-shadow: rgb(96 96 96/ 16%) 4px 4px 4px 4px;
+            display: block;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: o;
+            z-index: 2;
+            cursor: pointer;
+        }
+        #cont2 h2{
+            color: #84c225;
+            font-size: 16px;
+            text-align: center;
+            line-height: 19px;
+            font-weight: 600;
+        }
+        #cont2 input{
+            background-color: transparent;
+            border: none;
+            margin-top: 20%;
+            margin-bottom: 30%;
+            color: gray;
+            width: 90%;
+            height: 10%;
+            border-bottom: 1px dashed;
+        }
+        #resend{
+            width: 24%;
+            margin-left: 38%;
+            font-size: x-small;
+            background-color: white;
+
+        }
+        #continue2{
+            margin-top: 5%;
+            margin-left: 5%;
+            width: 90%;
+            height: 10%;
+            border-bottom: 1px solid gray;
+            border-radius: 5px;
+            font-weight: bolder;
+            background-color: #84c225;
+            color: white;
+        }
+        #cont2 p{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="cont2">
+        <h2>Verify Mobile Number</h2>
+        <p>Please check the OTP sent to your mobile number</p>
+        <p id="mbl"></p>
+        <input type="text" placeholder="Enter OTP">
+        <button id="resend">Resend OTP</button>
+        <br>
+        <button id="continue2">Verify and Continue</button>
+    </div>
+</body>
+</html>
